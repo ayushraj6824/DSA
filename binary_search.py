@@ -20,5 +20,5 @@ def verify(index):
         print("Target is not found in list")
 
 number=[1,2,3,4,5,6,7,8,9,10]
-result=binary_search(number,11)
+result=binary_search(number,6)
 verify(result)
