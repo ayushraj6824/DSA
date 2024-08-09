@@ -5,9 +5,9 @@ def binary_search(list,target):
     while first<=last:
         midpoint=(first+last)//2
 
-        if midpoint==target:
+        if list[midpoint]==target:
             return midpoint
-        elif midpoint<target:
+        elif list[midpoint]<target:
             first=midpoint+1
         else:
             last=midpoint-1
@@ -19,6 +19,17 @@ def verify(index):
     else:
         print("Target is not found in list")
 
-number=[1,2,3,4,5,6,7,8,9,10]
-result=binary_search(number,6)
+lst=[]
+n=int(input("Enter a number of element :"))
+for i in range (0,n):
+   num=int(input())
+   lst.append(num)
+
+lst.sort()
+print("sorted list: ",lst)
+
+s=int(input("Enter a searcing element:"))
+
+
+result=binary_search(lst,s)
 verify(result)
