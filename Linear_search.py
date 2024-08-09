@@ -12,6 +12,15 @@ def verify(index):
 
 
 
-numbers =[1,2,3,4,5,6,7,8,9,10]
-result=linear_search(numbers,6)  
-verify(result) 
+lst=[]
+n=int(input("Enter a number of element :"))
+for i in range (0,n):
+   num=int(input())
+   lst.append(num)
+print("list: ",lst)
+
+s=int(input("Enter a searcing element:"))
+
+
+result=linear_search(lst,s)
+verify(result)
