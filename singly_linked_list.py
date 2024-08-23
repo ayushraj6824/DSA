@@ -44,32 +44,14 @@ class SLL:
             print(temp.item,end=' ')
             temp=temp.next    
 
-    def delete_first(self):
-        if self.start is not None:
-            self.start=self.start.next
-
-    def delete_last(self):
-        if self.start is None:
-            pass
-        elif self.start.next is None:
-            self.start=None
-        else:
-            temp=self.start
-            while temp.next.next is not None:
-                temp=temp.next
-            temp.next=None
-
 
 
 
 mylist=SLL()
 mylist.insert_at_start(20)
-mylist.insert_after(mylist.search(20),15)
-mylist.insert_at_last(10)
-mylist.print_list()
-mylist.delete_first()
-print()
-mylist.print_list()
-mylist.delete_last()
-print()
+mylist.insert_at_start(30)
+mylist.insert_at_start(40)
+mylist.insert_at_start(50)
+mylist.insert_at_last(60)
+mylist.insert_after(mylist.search(30),70)
 mylist.print_list()
