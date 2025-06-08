@@ -21,4 +21,18 @@ class SLL:
         while current.next:
             current=current.next
         current.next=new_node   
+    def delete_at_start(self):
+        if self.is_empty():
+            return
+        self.start=self.start.next          
+    def delete_at_end(self):            
+        if self.is_empty():
+            return
+        if self.start.next==None:
+            self.start=None
+            return
+        current=self.start
+        while current.next.next:
+            current=current.next
+        current.next=None
     
