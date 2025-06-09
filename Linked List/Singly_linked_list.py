@@ -35,4 +35,26 @@ class SLL:
         while current.next.next:
             current=current.next
         current.next=None
-    
+    def display(self):  
+        if self.is_empty():
+            print("List is empty")
+            return
+        current=self.start
+        while current:
+            print(current.item,end=" -> ")
+            current=current.next
+        print("None")   
+
+
+
+    def search(self,item):
+
+        if self.is_empty():
+            return False
+        current=self.start
+        while current:
+            if current.item==item:
+                return True
+            current=current.next
+        return False
+   
