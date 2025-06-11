@@ -16,4 +16,4 @@ print("Element found at index:", result if result != -1 else "Not Found")
 #example usage with a target not in the array
 target_not_found = 6        
 result_not_found = linear_search(arr, target_not_found)
-print("Element found at index:", result_not_found if result_not_found != -1 else "Not Found")   
+print("Element found at index:", result_not_found if result_not_found != -1 else "Not Found")     
