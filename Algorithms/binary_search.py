@@ -23,3 +23,7 @@ print("Element found at index:", result if result != -1 else "Not Found")
 target_not_found = 6    
 result_not_found = binary_search(arr, target_not_found)
 print("Element found at index:", result_not_found if result_not_found != -1 else "Not Found")
+# Example usage with an empty array
+empty_arr = []  
+result_empty = binary_search(empty_arr, target)
+print("Element found at index:", result_empty if result_empty != -1 else "Not Found")   
