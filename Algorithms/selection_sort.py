@@ -7,3 +7,15 @@ def selection_sort(arr):
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i] 
     return arr
+
+
+
+
+# Example usage:
+if __name__ == "__main__":
+    arr = [64, 25, 12, 22, 11]
+    print("Original array:", arr)
+    sorted_arr = selection_sort(arr)
+    print("Sorted array:", sorted_arr)
+
+    
