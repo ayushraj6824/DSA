@@ -16,3 +16,6 @@ if __name__ == "__main__":
     print("Original array:", arr)
     sorted_arr = insertion_sort(arr)
     print("Sorted array:", sorted_arr)
+
+# Time Complexity: O(n^2)# Space Complexity: O(1)
+# This algorithm sorts the array in place.  
