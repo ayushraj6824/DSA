@@ -32,3 +32,4 @@ if __name__ == "__main__":
     print(min_stack.top())      # Output: 8
     min_stack.pop()
     print(min_stack.getMin())  # Output: 2
+    
