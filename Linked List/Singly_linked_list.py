@@ -56,5 +56,21 @@ class SLL:
             if current.item==item:
                 return True
             current=current.next
-        return False
+        return False    
+
+
+    def delete_item(self,item):
+        if self.is_empty():
+            return
+        if self.start.item==item:
+            self.start=self.start.next
+            return
+        current=self.start
+        while current.next:
+            if current.next.item==item:
+                current.next=current.next.next
+                return
+            current=current.next
+        print("Item not found") 
+            
    
