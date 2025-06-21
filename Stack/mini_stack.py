@@ -20,6 +20,7 @@ class MinStack:
             return None
         return min(self.stack)
     
+    
 
 
 # Example usage:
