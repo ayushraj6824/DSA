@@ -10,3 +10,7 @@ def bubble_sort(arr):
 unsorted_array = [64, 34, 25, 12, 22, 11, 90]
 sorted_array = bubble_sort(unsorted_array)
 print("Sorted array is:", sorted_array) 
+# Example usage with an already sorted array
+already_sorted_array = [11, 12, 22, 25, 34, 64, 90]
+sorted_already_sorted = bubble_sort(already_sorted_array)
+print("Sorted array is:", sorted_already_sorted)
