@@ -14,3 +14,7 @@ arr1=[1,2,3,4,5]
 print(reverse_array(arr1))  # Output: [5, 4, 3, 2, 1]
 # Example usage with an empty array
 arr2 = []   
+print(reverse_array(arr2))  # Output: []
+# Example usage with a single element array 
+arr3 = [42]
+print(reverse_array(arr3))  # Output: [42]
