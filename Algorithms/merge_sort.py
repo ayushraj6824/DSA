@@ -29,5 +29,9 @@ def merge_sort(arr):
 
     return arr
 
-  
+# Example usage:
+if __name__ == "__main__":  
+    sample_array = [38, 27, 43, 3, 9, 82, 10]
+    sorted_array = merge_sort(sample_array)
+    print("Sorted array:", sorted_array)
 
