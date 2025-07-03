@@ -1,6 +1,9 @@
 
 def reverse1_word(s):
-    return ' '.join(s.split()[::-1])
+
+    # Using split and join to reverse the words in the string
+    return ' '.join(s.split()[::-1])    
+    # return ' '.join(s.split()[::-1])
 
 
 
