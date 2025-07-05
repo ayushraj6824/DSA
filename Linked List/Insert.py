@@ -44,5 +44,9 @@ linked_list.insert_at_end(3)
 linked_list.insert_at_end(7)
 linked_list.insert_at_end(6)
 linked_list.display()
+linked_list.insert_at_end(5)
+linked_list.display()   
+linked_list.insert_at_end(4)
+linked_list.display()
 
     
