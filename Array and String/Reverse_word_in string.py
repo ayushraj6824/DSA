@@ -1,9 +1,12 @@
 
 def reverse1_word(s):
+    words = s.split()
+    reversed_words = []
+    for i in range(len(words)-1, -1, -1):
+        reversed_words.append(words[i])
+    return ' '.join(reversed_words)
 
-    # Using split and join to reverse the words in the string
-    return ' '.join(s.split()[::-1])    
-    # return ' '.join(s.split()[::-1])
+    
 
 
 
