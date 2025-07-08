@@ -29,4 +29,6 @@ if __name__ == "__main__":
     print(solution.searchInsert(nums, target))  # Output: 4
     target = 0
     print(solution.searchInsert(nums, target))  # Output: 0
+    target = 6
+    print(solution.searchInsert(nums, target))  # Output: 3
     
