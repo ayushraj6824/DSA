@@ -13,6 +13,8 @@ class Solution:
                 right = mid - 1
         return left
     
+# This function implements a binary search algorithm to find the index at which a target value should be inserted into a sorted list.
+    
 
 
 # Example usage:
