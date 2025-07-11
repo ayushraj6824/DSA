@@ -30,6 +30,27 @@ class LinkedList:
             print(f"{current.data} ->",end="")
             current=current.next
         print("None")
+    
+    def reverse(self):
+        prev=None
+        current=self.head
+        while current:
+            next_node=current.next
+            current.next=prev
+            prev=current
+            current=next_node
+        self.head=prev
+        print("Linked List reversed")
+
+
+
+
+
+# Linked List is a data structure where each element (node) points to the next one.
+# It allows for efficient insertion and deletion of elements.   
+
+
+
 
 
 
@@ -48,5 +69,5 @@ linked_list.insert_at_end(5)
 linked_list.display()   
 linked_list.insert_at_end(4)
 linked_list.display()
-
-    
+linked_list.reverse()
+linked_list.display()
