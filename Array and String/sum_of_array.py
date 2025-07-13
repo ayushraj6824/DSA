@@ -5,6 +5,8 @@ def sum_of_array(arr):
     return sum
 
 
+
+
 # Example usage
 if __name__ == "__main__":
     arr = [1, 2, 3, 4, 5]
