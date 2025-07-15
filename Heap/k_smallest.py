@@ -19,3 +19,15 @@ def k_smallest_elements(arr, k):
 
     # Return the k smallest elements (negated back to positive)
     return [-x for x in max_heap]
+
+# Example usage 
+if __name__ == "__main__":
+    arr = [3, 1, 5, 12, 2, 11, 4]
+    k = 3
+    print(k_smallest_elements(arr, k))  # Output: [1, 2, 3]
+
+
+
+
+
+ 
