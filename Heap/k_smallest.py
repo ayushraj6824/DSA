@@ -1,4 +1,4 @@
-# k smallest in heap
+
 # Time complexity: O(k log n)   
 # Space complexity: O(n)
 import heapq
