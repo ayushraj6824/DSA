@@ -23,3 +23,5 @@ if __name__ == "__main__":
     arr = [3, 1, 5, 12, 2, 11, 4]
     k = 3
     print(k_largest_elements(arr, k))  # Output: [5, 12, 11]
+    print(sorted(k_largest_elements(arr, k)))  # Output: [5, 11, 12]
+    print(k_largest_elements(arr, 0))  # Output: []
