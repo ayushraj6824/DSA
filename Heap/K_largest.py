@@ -18,6 +18,9 @@ def k_largest_elements(arr, k):
 
     # Return the k largest elements
     return min_heap
+
+
+
 # Example usage
 if __name__ == "__main__":  
     arr = [3, 1, 5, 12, 2, 11, 4]
