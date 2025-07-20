@@ -21,3 +21,8 @@ def merge_k_sorted_arrays(arrays):
             heapq.heappush(min_heap, (next_value, arr_index, elem_index + 1))
 
     return merged_array
+
+# example usage
+if __name__ == "__main__":  
+    arrays = [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+    print(merge_k_sorted_arrays(arrays))  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
