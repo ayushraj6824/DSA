@@ -26,3 +26,9 @@ def merge_k_sorted_arrays(arrays):
 if __name__ == "__main__":  
     arrays = [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
     print(merge_k_sorted_arrays(arrays))  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Example usage
+    arrays = [[1, 3, 5], [2, 4, 6], [0, 7, 8]]
+    print(merge_k_sorted_arrays(arrays))  # Output: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    arrays = [[10, 20], [5, 15, 25], [30, 40, 50]]
+    print(merge_k_sorted_arrays(arrays))  # Output: [5, 10, 15, 20, 25, 30, 40, 50]
