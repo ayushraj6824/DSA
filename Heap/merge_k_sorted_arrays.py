@@ -22,6 +22,7 @@ def merge_k_sorted_arrays(arrays):
 
     return merged_array
 
+
 # example usage
 if __name__ == "__main__":  
     arrays = [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
