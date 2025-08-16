@@ -14,3 +14,7 @@ def minEatingSpeed(piles, h):
             left = mid + 1
     return left 
 
+# Example usage:
+piles = [3, 6, 7, 11]
+h = 8
+print(minEatingSpeed(piles, h))  # Output: 4
