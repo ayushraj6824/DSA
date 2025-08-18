@@ -14,8 +14,11 @@ def rotate_array(arr, k):
 
 
 # Example usage:
+
     arr = [1, 2, 3, 4, 5]                               
     k = 2                                                                                                       
     rotated_arr = rotate_array(arr, k)      
     print(rotated_arr)  # Output: [4, 5, 1, 2, 3]       
+
+
 
